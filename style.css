@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Noto Sans';
+    padding: 0px 3vw;
+}
+
+/*  Global Navigation       */
+
+.global-nav {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.global-logo {
+    height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    width: "100%";
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.nav-button {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    /* color: #E63241; */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*  Content       */
+
+.content-container {
+    background-color: lightgrey;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-dummy {
+    height: 12vh; /* same heigh as global-nav  */
+}
+
+.landing-content {
+    height: 83vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: saddlebrown;
+}
+
+.cta-group {
+    background-color: rebeccapurple;
+}
+
+.cta {
+    padding: 10px 20px;
+    background-color: royalblue;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/*  Behind the scenes process       */
+
+.process {
+    background-color: darkblue;
+    height: 95vh;
+}
