@@ -4,13 +4,10 @@ var infos = [
     'We cannot accept things like Children\'s car seats, booster seats and baby capsules without the presence of the Standards Australia logo "AS/NZS 1754-2010"'
 ]
 
-
-setTimeout(() => console.log("hi"), 1000);
-setTimeout(newInfo, 1000);
-
 function newInfo() {
     var randomNumber = Math.floor(Math.random() * (infos.length));
     document.getElementById('randomInfo').innerHTML = infos[randomNumber];
     console.log(randomNumber)
 }
 
+setInterval(newInfo, 1000);
