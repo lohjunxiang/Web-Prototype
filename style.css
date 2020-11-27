@@ -102,7 +102,7 @@ header {
 
 .content-container {
     /* background-color: lightgrey; */
-    height: 80vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
 
@@ -115,7 +115,7 @@ header {
   
 
 .landing-content {
-    height: 95vh;
+    height: 85vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -129,14 +129,29 @@ header {
     justify-content: center;
     width: 60%;
     padding: 20px;
-    height: 60vh;
+
+    background-color: blueviolet;
 }
 
 .landing-text > h1 {
     font-size: 60px;
     font-weight: bolder;
-    color: #E63241;
     width: 90%;
+}
+
+#randomInfo {
+    height: 20vh;
+    margin: 3vh 0px 0px 0px;
+    background-color: cornsilk;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+.highlight {
+    color: #E63241;
+    text-decoration: underline;
 }
 .landing-text > p {
     font-size: 20px;
@@ -199,8 +214,13 @@ header {
 /*  Behind the scenes process       */
 
 .process {
-    background-color: #E63241;
-    height: 95vh;
+    background-color: #003450;
+    display: flex;
+    justify-content: center;
+}
+
+.video-wrapper {
+    padding: 8vh;
 }
 
 
@@ -216,15 +236,6 @@ header {
 	}
 	section {
 		padding: 0.5em;
-	}
-	figure {
-		margin: 0;
-	}
-	figure iframe {
-		width: 100%;
-	}
-	figure img {
-		width: 100%;
 	}
 }
 
