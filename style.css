@@ -130,23 +130,76 @@ header {
     width: 60%;
     padding: 20px;
 
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .landing-text > h1 {
     font-size: 60px;
     font-weight: bolder;
     width: 90%;
+    color: #202020
+}
+
+.randomInfoDiv {
+    position: relative;
+    height: 25vh;
+    width: 95%;
+    margin: 5vh 0px;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #003450;
+    padding: 3vh;
+}
+
+.did-you-know {
+    position: absolute;
+    display: flex;
+    height: 10px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.did-you-know > img {
+    height: 350%;
+}
+
+.did-you-know > p {
+    font-size: 2.6vh;
+    font-weight: bold;
+    margin-left: 1vh;
+    padding: 5px;
+    color: #E63241;
+
 }
 
 #randomInfo {
-    height: 20vh;
-    margin: 3vh 0px 0px 0px;
-    background-color: cornsilk;
-    display: block;
+    display: flex;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    font-size: 1.3vw;
+    padding: 4vh 0px;
     text-align: center;
-    justify-content: space-around;
-    padding: 2vh;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    color: #202020
+}
+
+.randomInfoDiv > p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.7vh;
+    font-size: 12px;
+    text-align: center;
+    
 }
 
 .highlight {
@@ -213,14 +266,60 @@ header {
 
 /*  Behind the scenes process       */
 
-.process {
+.video-section {
     background-color: #003450;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.video-caption {
+    color: white;
+    padding: 2vh 0px;
 }
 
 .video-wrapper {
-    padding: 8vh;
+    padding: 2vh;
+    margin: 5vh 0px 0px 0px;
+}
+
+/*  Footer       */
+
+.footer {
+    background-color: #EBEEF4;
+    text-decoration: none;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    height: 30vh;
+    padding: 3vh;
+    margin-bottom: 20px;
+    
+    
+}
+.footer-div > p {
+    padding: 1.5vh 0px;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    height: 5vh;
+
+}
+
+.social-media-icons {
+    height: 100%;
+    padding: 2px 0px;
 }
 
 
