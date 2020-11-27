@@ -146,6 +146,7 @@ header {
 
 #cta-arrow {
     position: absolute;
+    color: black;
     font-weight: 500;
     font-size: 10vh;
     text-decoration: none;
