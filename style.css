@@ -8,6 +8,7 @@ body {
     width: 100%;
     font-family: 'Noto Sans';
     padding: 0px 2vw;
+    /* background-color: #E63241; */
 }
 
 
@@ -67,6 +68,7 @@ header {
     width: 100%;
     background-color: #fff;
     padding: 10px 20px;
+    z-index: 1;
 }
 
 .global-logo {
@@ -79,6 +81,7 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    margin-right: 2vw;
 }
 
 .nav-button {
@@ -98,18 +101,21 @@ header {
 /*  Content       */
 
 .content-container {
-    background-color: lightgrey;
-    height: 95vh;
+    /* background-color: lightgrey; */
+    height: 80vh;
     display: flex;
     flex-direction: column;
+
 }
 
 .nav-dummy {
     height: 5em; /* same heigh as global-nav  */
 }
 
+  
+
 .landing-content {
-    height: 83vh;
+    height: 95vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -120,43 +126,80 @@ header {
 .landing-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 60%;
-    background-color: saddlebrown;
+    padding: 20px;
+    height: 60vh;
+}
+
+.landing-text > h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #E63241;
+    width: 90%;
+}
+.landing-text > p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #444444;
+    width: 75%;
 }
 
 .cta-group {
-    background-color: rebeccapurple;
-
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
 }
 
 .cta {
-    height: 15vh;
-    width: 30vh;
-    color: black;
-    background-color: royalblue;
+    height: 18vh;
+    width: 34vh;
+    position: relative;
+    color: white;
+    background-color: #003450;
     text-decoration: none;
-    margin: 30px 30px;
+    margin: 1vh 1vh;
+    overflow: hidden;
+    padding: 0px 0px 0px 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.cta-link {
-    padding: 10px;
-    margin: 10px 10px;
+.cta-header {
+    margin: 0px 20% 0px 0px;
     font-size: 3vh;
+    font-weight: bold;
+}
+.cta-sub {
+    margin: 2% 35% 5% 0px;
+    font-size: 1.8vh;
+    font-weight: lighter;
 }
 
-#cta-arrow {
+.cta-arrow {
     position: absolute;
-    color: black;
-    font-weight: 500;
-    font-size: 10vh;
-    text-decoration: none;
-
+    width: 20%;
+    right: 10%;
+    bottom: 10%;
+    transition-duration: 0.5s;
 }
+
+.cta-arrow:hover {
+    transform: translateY(-6px);
+    transition-duration: 0.5s;
+}
+
+
+/* .cta-arrow:hover {
+    transform: translateY(-6px);
+    transition-duration: 0.5s;
+} */
 
 /*  Behind the scenes process       */
 
 .process {
-    background-color: darkblue;
+    background-color: #E63241;
     height: 95vh;
 }
 
